@@ -30,8 +30,19 @@
     <!-- <div class="contacts">
       <h4>My contacts</h4>
     </div> -->
+
+    <audio id="backgroundAudio" loop style="display: none;">
+      <source src="./assets/music/A.L.I.S.O.N_-_Nightride_Revisited_(mp3.pm).mp3" type="audio/mpeg">
+    </audio>
   </div>
 
-  <script src="./assets/js/app.js"></script>
+  <script >
+   window.addEventListener('click', () => {
+    const audio = document.getElementById('backgroundAudio');
+    audio.play().catch(error => {
+      console.log('Ошибка воспроизведения:', error);
+    });
+  });
+  </script>
 </body>
 </html>
