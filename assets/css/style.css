@@ -97,7 +97,7 @@ animation: zoom 16s alternate infinite;
 
 .icons-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 12px;
   margin-top: 30px;
   
 }
@@ -109,7 +109,10 @@ animation: zoom 16s alternate infinite;
 
 }
 
-
+.contacts {
+  margin-top: 50px;
+  color: #ccc;
+}
 
 @media screen and (max-width: 425px) {
   .wrapper-img {
