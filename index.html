@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>software developer</title>
-</head>
-<body>
-  <div class="main">
-  </div>
-  <div class="container">
-    <div class="wrapper-img">
-      <img src="./assets/img/my-photo.jpg" alt="" class="img">
-      <h3 class="title_xz">Hi there 👋</h3>
-      <h3 class="title">I'm a Front-end & Back-end developer from Kyrgyzstan 🤠  </h3>
-      <div class="icons-wrapper">
-        <img src="./assets/icons/html.png" alt="" class="icon">
-        <img src="./assets/icons/css.png" alt="" class="icon">
-        <img src="./assets/icons/sass-1.svg" alt="" class="icon">
-        <img src="./assets/icons/js.png" alt="" class="icon">
-        <img src="./assets/icons/typescript.png" alt="" class="icon">
-        <img src="./assets/icons/react.png" alt="" class="icon">
-        <img src="./assets/icons/redux.svg" alt="" class="icon">
-        <img src="./assets/icons/nestjs.svg" alt="" class="icon">
-        <img src="./assets/icons/nodejs-logo.svg" alt="" class="icon">
-        <img src="./assets/icons/postgresql.svg" alt="" class="icon">
-      </div>
-    </div>
-    <!-- <div class="contacts">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>software developer</title>
+    </head>
+    <body>
+        <div class="main"></div>
+        <div class="container">
+            <div class="wrapper-img">
+                <img src="./assets/img/my-photo.jpg" alt="" class="img" />
+                <h3 class="title_xz">Hi there 👋</h3>
+                <h3 class="title">
+                    I'm a Front-end & Back-end developer from Kyrgyzstan
+                </h3>
+                <div class="icons-wrapper">
+                    <img src="./assets/icons/html.png" alt="" class="icon" />
+                    <img src="./assets/icons/css.png" alt="" class="icon" />
+                    <img src="./assets/icons/sass-1.svg" alt="" class="icon" />
+                    <img src="./assets/icons/js.png" alt="" class="icon" />
+                    <img
+                        src="./assets/icons/typescript.png"
+                        alt=""
+                        class="icon"
+                    />
+                    <img src="./assets/icons/react.png" alt="" class="icon" />
+                    <img src="./assets/icons/redux.svg" alt="" class="icon" />
+                    <img src="./assets/icons/nestjs.svg" alt="" class="icon" />
+                    <img
+                        src="./assets/icons/nodejs-logo.svg"
+                        alt=""
+                        class="icon"
+                    />
+                    <img
+                        src="./assets/icons/postgresql.svg"
+                        alt=""
+                        class="icon"
+                    />
+                </div>
+            </div>
+            <!-- <div class="contacts">
       <h4>My contacts</h4>
     </div> -->
 
-    <audio id="backgroundAudio" loop style="display: none;">
-      <source src="./assets/music/A.L.I.S.O.N_-_Nightride_Revisited_(mp3.pm).mp3" type="audio/mpeg">
-    </audio>
-  </div>
+            <audio id="backgroundAudio" loop style="display: none">
+                <source
+                    src="./assets/music/A.L.I.S.O.N_-_Nightride_Revisited_(mp3.pm).mp3"
+                    type="audio/mpeg"
+                />
+            </audio>
+        </div>
 
-  <script >
-   window.addEventListener('click', () => {
-    const audio = document.getElementById('backgroundAudio');
-    audio.play().catch(error => {
-      console.log('Ошибка воспроизведения:', error);
-    });
-  });
-  </script>
-</body>
+        <script>
+            window.addEventListener("click", () => {
+                const audio = document.getElementById("backgroundAudio");
+                audio.play().catch((error) => {
+                    console.log("Ошибка воспроизведения:", error);
+                });
+            });
+        </script>
+    </body>
 </html>
